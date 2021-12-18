@@ -25,6 +25,8 @@ public class PlayScenePresenter : MonoBehaviour
         mBtnMove.onClick.AddListener(() => {
             SceneManager.LoadScene("History");
         });
+        //L“Ç‚İ‚İ
+        AdMobManager.Instance.Init();
     }
 
     // •s’èŠú‚ÈŠÔ‚ÅŒÄ‚Î‚ê‚é
